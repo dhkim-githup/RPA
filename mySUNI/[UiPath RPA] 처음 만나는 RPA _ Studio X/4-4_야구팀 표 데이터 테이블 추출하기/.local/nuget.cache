@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2RBmB2yeXiXb6F79H0FFKXeHDmovzMhIQnwVrKacZUu3vYEhaNvdf4YExO3ry6zaMrUCXB9bghlBpicedTUD8g==",
+  "dgSpecHash": "aw7wvV1TQ7TZVOiC9zPYEnisRQSOJj0dg24wL3odxdb5iLxVTcjht/1SHeEzseJXfjVE9tU9odSyBFL4G1kpLw==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\4-3_앵커 고정하기\\.local\\",
+  "projectFilePath": "D:\\Programming\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\4-4_야구팀 표 데이터 테이블 추출하기\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\SAJ09210004\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",
     "C:\\Users\\SAJ09210004\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",

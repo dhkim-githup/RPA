@@ -13264,6 +13264,7 @@
       "path": "nito.asyncex/5.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "icon.png",
         "nito.asyncex.5.1.0.nupkg.sha512",
         "nito.asyncex.nuspec"
@@ -13275,6 +13276,7 @@
       "path": "nito.asyncex.context/5.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "icon.png",
         "lib/netstandard1.3/Nito.AsyncEx.Context.dll",
         "lib/netstandard1.3/Nito.AsyncEx.Context.xml",
@@ -13290,6 +13292,7 @@
       "path": "nito.asyncex.coordination/5.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "icon.png",
         "lib/netstandard1.3/Nito.AsyncEx.Coordination.dll",
         "lib/netstandard1.3/Nito.AsyncEx.Coordination.xml",
@@ -13305,6 +13308,7 @@
       "path": "nito.asyncex.interop.waithandles/5.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "icon.png",
         "lib/netstandard1.3/Nito.AsyncEx.Interop.WaitHandles.dll",
         "lib/netstandard1.3/Nito.AsyncEx.Interop.WaitHandles.xml",
@@ -13320,6 +13324,7 @@
       "path": "nito.asyncex.oop/5.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "icon.png",
         "lib/netstandard1.3/Nito.AsyncEx.Oop.dll",
         "lib/netstandard1.3/Nito.AsyncEx.Oop.xml",
@@ -13335,6 +13340,7 @@
       "path": "nito.asyncex.tasks/5.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "icon.png",
         "lib/netstandard1.3/Nito.AsyncEx.Tasks.dll",
         "lib/netstandard1.3/Nito.AsyncEx.Tasks.xml",
@@ -13350,6 +13356,7 @@
       "path": "nito.cancellation/1.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "icon.png",
         "lib/netstandard1.0/Nito.Cancellation.dll",
         "lib/netstandard1.0/Nito.Cancellation.xml",
@@ -13365,6 +13372,7 @@
       "path": "nito.collections.deque/1.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "icon.png",
         "lib/netstandard1.0/Nito.Collections.Deque.dll",
         "lib/netstandard1.0/Nito.Collections.Deque.xml",
@@ -13380,6 +13388,7 @@
       "path": "nito.disposables/2.2.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "icon.png",
         "lib/net461/Nito.Disposables.dll",
         "lib/net461/Nito.Disposables.xml",
@@ -14526,6 +14535,7 @@
       "path": "system.activities.viewmodels/1.0.0-20230306.1",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net5.0-windows7.0/System.Activities.ViewModels.dll",
         "lib/net5.0-windows7.0/de/System.Activities.ViewModels.resources.dll",
         "lib/net5.0-windows7.0/es-MX/System.Activities.ViewModels.resources.dll",
@@ -15813,6 +15823,7 @@
       "path": "system.io.abstractions/3.0.10",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net40/System.IO.Abstractions.dll",
         "lib/net40/System.IO.Abstractions.xml",
         "lib/netstandard1.4/System.IO.Abstractions.dll",
@@ -21689,11 +21700,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "4-3_앵커 고정하기",
-      "projectName": "4-3_앵커 고정하기",
-      "projectPath": "D:\\Programming\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\4-3_앵커 고정하기\\.local",
+      "projectUniqueName": "4-4_야구팀 표 데이터 테이블 추출하기",
+      "projectName": "4-4_야구팀 표 데이터 테이블 추출하기",
+      "projectPath": "D:\\Programming\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\4-4_야구팀 표 데이터 테이블 추출하기\\.local",
       "packagesPath": "C:\\Users\\SAJ09210004\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\4-3_앵커 고정하기\\.local",
+      "outputPath": "D:\\Programming\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\4-4_야구팀 표 데이터 테이블 추출하기\\.local",
       "fallbackFolders": [
         "C:\\Users\\SAJ09210004\\AppData\\Local\\UiPath\\NugetFallbackFolder"
       ]
