@@ -21695,18 +21695,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dhKim\\.nuget\\packages\\": {},
-    "C:\\Users\\dhKim\\AppData\\Local\\UiPath\\NugetFallbackFolder": {}
+    "C:\\Users\\SAJ09210004\\.nuget\\packages\\": {},
+    "C:\\Users\\SAJ09210004\\AppData\\Local\\UiPath\\NugetFallbackFolder": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "4-6_두개의 엑셀파일 하나로 합치기",
       "projectName": "4-6_두개의 엑셀파일 하나로 합치기",
-      "projectPath": "D:\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\4-6_두개의 엑셀파일 하나로 합치기\\.local",
-      "packagesPath": "C:\\Users\\dhKim\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\4-6_두개의 엑셀파일 하나로 합치기\\.local",
+      "projectPath": "D:\\Programming\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\4-6_두개의 엑셀파일 하나로 합치기\\.local",
+      "packagesPath": "C:\\Users\\SAJ09210004\\.nuget\\packages\\",
+      "outputPath": "D:\\Programming\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\4-6_두개의 엑셀파일 하나로 합치기\\.local",
       "fallbackFolders": [
-        "C:\\Users\\dhKim\\AppData\\Local\\UiPath\\NugetFallbackFolder"
+        "C:\\Users\\SAJ09210004\\AppData\\Local\\UiPath\\NugetFallbackFolder"
       ]
     },
     "frameworks": {
@@ -21748,7 +21748,7 @@
             "version": "[1.16.0, 1.16.0]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\dhKim\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\SAJ09210004\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
