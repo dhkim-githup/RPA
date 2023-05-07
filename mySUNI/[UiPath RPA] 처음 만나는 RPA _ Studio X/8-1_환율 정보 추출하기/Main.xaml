@@ -1,0 +1,231 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1208,2681.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="48">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Activities.System.Binding</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Word</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Presentations</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="76">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <ueab:SequenceX DisplayName="Single Excel Process Scope" sap:VirtualizedContainerService.HintSize="630.4,2616.8" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+    <ueab:SequenceX.Variables>
+      <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Default="[new WorkbookQuickHandle(workbookPath:=&quot;Project_Notebook.xlsx&quot;,visible:=True,autoSave:=False,createNew:=True,readOnly:=False,isWorkspace:=True)]" Name="Notes" />
+    </ueab:SequenceX.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="587.2,2527.2" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="D:\GitHub\RPA\mySUNI\[UiPath RPA] 처음 만나는 RPA _ Studio X\강의자료\실습자료\환율 변동 추이(예제용).xlsx">
+      <ueab:ExcelApplicationCard.Body>
+        <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel_환율변동추이" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="553.6,2257.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,2168" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" WorkbookPath="D:\GitHub\RPA\mySUNI\[UiPath RPA] 처음 만나는 RPA _ Studio X\강의자료\실습자료\우리은행 최신 환율 정보.xlsx">
+              <ueab:ExcelApplicationCard.Body>
+                <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel_환율조회" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,1898.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: 일별환율조회 - 우리은행" sap:VirtualizedContainerService.HintSize="433.6,927.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="49e8c8f7-dad9-4957-a252-465cacc0c254" Version="V2">
+                      <uix:NApplicationCard.Body>
+                        <ActivityAction x:TypeArguments="x:Object">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="376.8,710.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="333.6,24.8" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
+                            <uix:NSelectItem DisplayName="Select Item '04'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="04" ScopeIdentifier="49e8c8f7-dad9-4957-a252-465cacc0c254" Version="V3">
+                              <uix:NSelectItem.Items>
+                                <scg:List x:TypeArguments="x:String" Capacity="31">
+                                  <x:String>01</x:String>
+                                  <x:String>02</x:String>
+                                  <x:String>03</x:String>
+                                  <x:String>04</x:String>
+                                  <x:String>05</x:String>
+                                  <x:String>06</x:String>
+                                  <x:String>07</x:String>
+                                  <x:String>08</x:String>
+                                  <x:String>09</x:String>
+                                  <x:String>10</x:String>
+                                  <x:String>11</x:String>
+                                  <x:String>12</x:String>
+                                  <x:String>13</x:String>
+                                  <x:String>14</x:String>
+                                  <x:String>15</x:String>
+                                  <x:String>16</x:String>
+                                  <x:String>17</x:String>
+                                  <x:String>18</x:String>
+                                  <x:String>19</x:String>
+                                  <x:String>20</x:String>
+                                  <x:String>21</x:String>
+                                  <x:String>22</x:String>
+                                  <x:String>23</x:String>
+                                  <x:String>24</x:String>
+                                  <x:String>25</x:String>
+                                  <x:String>26</x:String>
+                                  <x:String>27</x:String>
+                                  <x:String>28</x:String>
+                                  <x:String>29</x:String>
+                                  <x:String>30</x:String>
+                                  <x:String>31</x:String>
+                                </scg:List>
+                              </uix:NSelectItem.Items>
+                              <uix:NSelectItem.Target>
+                                <uix:TargetAnchorable BrowserURL="https://spot.wooribank.com/pot/Dream?withyou=FXXRT0011" DesignTimeRectangle="775, 391, 37, 25" DesignTimeScaleFactor="1" ElementType="DropDown" FriendlyName="'04'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='SELECT_DATED' tableRow='2' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='SELECT_DATED' type='' tag='SELECT' class='' aaname='조회일-일' /&gt;" Guid="5234b1fc-64c6-4b08-8ce1-da8630c5fd4e" InformativeScreenshot="b0d55a50a1253db2f83eedcc0184be9b.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='일별환율조회 - 우리은행' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target DesignTimeRectangle="655, 349, 146, 25" ElementType="DropDown" FriendlyName="'전체'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='a1' tableRow='1' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='a1' type='' tag='SELECT' class='' aaname='통화' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJYAAAAdCAYAAABIdpX5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGASURBVHhe7djNjYMwEEBhOoIWlm4iioBzRCtJLyhS2qAELwM2a7w4CZA5YL1P8oof5/Y0WJsZQMEcVtd1LNbh5SzCAo4gLKggLKggLKggLKggLKjYENbNVFlmspVV3acdz2s5Xy/Jb6vhr+demfL6NObRmvKnNcMVErJvYrkoAoQFZ1dYElB2mTIZr1em12iIx3+32ENYp1PXten73t79kWdN09i7yY6w3CexNO3DPrKYWOmSqGQoFEWxiEuu5Zm8kz3O5rBul2wKQqZREARhpUsCyvN8EZcflbzzg9sUlkTlxxTeR8OSeOyE8z+dhHUuYVyxqMTnYa1MKDFPsEEsLBeT2zdiYp2SH1csKrFpYr2zGtY8reRz6J3LCOu0XFyxqMT2sF6E8D+s6aA/TyqZeu6sRVinJkHFohJfDSs0fgLtvyUc//BPWOlSDeslwkravrDswW11BRMqirCStj0s4AOEBRWEBRWEBRWEBRXRsFiso8uZwwK+ibCggrCgwJhftS7RYlPMBuoAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NSelectItem.Target>
+                            </uix:NSelectItem>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '조회'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="49e8c8f7-dad9-4957-a252-465cacc0c254" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="https://spot.wooribank.com/pot/Dream?withyou=FXXRT0011" CvElementArea="909, 442, 101, 37" CvTextArea="944, 453, 29, 15" CvTextArgument="Xo" CvType="Button" DesignTimeRectangle="915, 445, 93, 34" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'조회'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' class='' aaname='조회' check:text='조회' /&gt;" Guid="30e04937-d40d-495d-85da-3b1f05988644" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGEAAAAmCAYAAADUW/V3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAARtSURBVGhD7ZrJTxNRHMfn4sWDB40aNxRcAu4QTYzx5j/g2Xj16s7FP8GzN2lUoqKoRcAKBQQ3RNRo1VIXRMKmUBAVlWKo/HzfN2+mM+1rGS10Jvi+5JPAW2aG77dvmc5opOS6HIXQ9XOCLveP0MlIH+172qUQHHzZwz053T1EddFv3Kd/UdoQpthPazRmGr+3NUK770WopCWsYBQ3v6SdLa+4JwD+HAh180Dg25Tw0YmkIbz6+sM0HycoZidT2Nne9CKlDOEYgSAM+OhEKSFgWGGYcfNZ2oq/RAQC/+Aj/JxOZgjx37/5vI9PP4YZklZkB3yEn/A1nmF+4iGgHg0xjEqaQrSt8blihoCf8BX+phMPAUMGiZU0sY4NzxQzDHyFv+mmJg2LB+auHSy1rfVPFbPEDjYi4LNssdawiu9pDtGWuseKWQY+w+/k5UHDfLU58EiRI+A37iOs0naxOWtTbZsiR8BvfTQkxoOGdDbWtM4BBiiC/+jLgLx8YoRKbeXuAL9xZ239ikMrvNZCRTfuu0/nd3FJmRXplPTl9IsQ+uXlCMFW7h6Ykqw7Ja3If5e8SOnAL36BwwOvpfWcd9MEFxumUn+fHgL/XXIMFzCmJEN8JHiPXt04KBalE9I2ThHHyvo4M0dx4CH/bs6QtqGyibxFmILYPMSG6Ljx+2iPpJ2FN2P8n0lojHxmfQ91oIgfz9LHRTb57/B7BkPeCqF9iIZxVUmm+0ZR+IuC7Za2BiKA4f6wKBPBmUF4LwSAO2hD2vqKILlO2yBF+eUw42T1nG7dzKQ2vs+pZcf6sPOYoGCbpV9skI5Z2riNLYR1F+vIk0T03UNHRFJn4WivvtWL9oZEWUiMhG9Uxv9OhHDU0i9bYKSs3AmFVxpp/7MPuCoube2FW+RJOkQIHZI6GyGqH+dNbUr0+6CHMM5CSOnrDkVXm+1rQkH5TfIkYRFCWFInpUs3e6RLXj7+iY7YyrMj/3yNtNwJW6ru0qm3lt0RDuY2Z9J/1S7XyHvW7z2FxZ+ZFO35qLcb/0iHJefONQUMbFGtzxd4CGvOVc9hRFgIQVqfWwrKa/kds+1rC2yXVp+9MYfpNEM4JK3PLfDbeqMGaYXVD2i1r0qRI+B3w+AXYb8uDanks+1Wns+vmGXgM/xOeaiDBwx44pN3roZWlV1XOCRPUpYJ+Iu14F7UPgogDQ8XsFKvCbTTSpbWyjPXFDMN8xX+pnvjwnzlBfvW5RWNtIJ1WME6KjIDc2XlKTA/4atxX5A8FUHmy1+Tk5O84eKqB7T4bDUtYwdQZAcCgJ/wNR6PC6dTZYZgCA8bsIIvOR+gpWV+RVquS8oSLCoP0M7gE/3hzZTs859QUghoPMUXDywiCy418INhZCicsfBCHfftYPsbsQhnDgBKGQkJ6Qs2dk7zK+/wA+MECEUR4F4YwBuAqQfm6wvw9OYbyhCCEBtKxqvyGF440byK2/89+GCurX3IP6QwHtOO01fhkzV9CEqzLhWCB6RCcF1EfwCRUyKsVz0YSAAAAABJRU5ErkJggg==" InformativeScreenshot="51e288ab1205110050e75ee14bf444db.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='일별환율조회 - 우리은행' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[Excel_환율조회.Sheet(&quot;Sheet1&quot;).DataTableOutValue]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='통화표시' ReferenceName='통화표시' ReferenceIdx='0'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='통화표시 Src' ReferenceName='통화표시 Src' ReferenceIdx='1'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='통화표시 Alt Text' ReferenceName='통화표시 Alt Text' ReferenceIdx='2'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='통화표시 Url' ReferenceName='통화표시 Url' ReferenceIdx='3'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='통화명' ReferenceName='통화명' ReferenceIdx='4'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='송금 보내실때' ReferenceName='송금 보내실때' ReferenceIdx='5'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='송금 받으실때' ReferenceName='송금 받으실때' ReferenceIdx='6'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='현찰 사실때(스프레드율)' ReferenceName='현찰 사실때(스프레드율)' ReferenceIdx='7'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='현찰 사실때(스프레드율)1' ReferenceName='현찰 사실때(스프레드율)1' ReferenceIdx='8'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='현찰 파실때(스프레드율)' ReferenceName='현찰 파실때(스프레드율)' ReferenceIdx='9'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='현찰' ReferenceName='현찰' ReferenceIdx='10'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='매매 기준율' ReferenceName='매매&amp;#xA;기준율' ReferenceIdx='11'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='기준환율' ReferenceName='기준환율' ReferenceIdx='12'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='대미 환산율' ReferenceName='대미&amp;#xA;환산율' ReferenceIdx='13'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='통화표시' attr='fulltext' name2='통화표시 Src' attr2='src' name3='통화표시 Alt Text' attr3='alt' name4='통화표시 Url' attr4='href' /&gt;&lt;column name='통화명' attr='fulltext' /&gt;&lt;column name='송금 보내실때' attr='fulltext' /&gt;&lt;column name='송금 받으실때' attr='fulltext' /&gt;&lt;column name='현찰 사실때(스프레드율)' attr='fulltext' /&gt;&lt;column name='현찰 사실때(스프레드율)' attr='fulltext' /&gt;&lt;column name='현찰 파실때(스프레드율)' attr='fulltext' /&gt;&lt;column name='현찰' attr='fulltext' /&gt;&lt;column name='매매&amp;#xA;기준율' attr='fulltext' /&gt;&lt;column name='기준환율' attr='fulltext' /&gt;&lt;column name='대미&amp;#xA;환산율' attr='fulltext' /&gt;&lt;/extract-table&gt;" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="49e8c8f7-dad9-4957-a252-465cacc0c254" Version="V3">
+                              <uix:NExtractData.Target>
+                                <uix:TargetAnchorable DesignTimeRectangle="485, 534, 950, 1751" DesignTimeScaleFactor="1" FriendlyName="'일별환율 조회결과 통화표시 통화명 송금'" FullSelectorArgument="&lt;webctrl parentid='fxprint' tag='TABLE' /&gt;" Guid="b3c764d1-5142-4856-8fde-dad4bf8fff6a" InformativeScreenshot="73c3a602689352693893c000b5b0f529.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='일별환율조회 - 우리은행' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                              </uix:NExtractData.Target>
+                            </uix:NExtractData>
+                          </Sequence>
+                        </ActivityAction>
+                      </uix:NApplicationCard.Body>
+                      <uix:NApplicationCard.TargetApp>
+                        <uix:TargetApp Area="-1928, -8, 1936, 1056" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGfSURBVDhPpVPNSgJRGL3tWkRBG99hNi1yL71AL+AD+BKCRmVI9LeISHPRLlrUJrcluiltJgVHqkWBKeXPVBNp/n/dc8cZHJNI+uAM3z3fOefeYe4wIvoXfhC3lbrTd/7kd4WzsdmVpAagB5fjs2G9bRGWSx5pO62ygExsI2MH56SdjBq6LnkGPVZzIJc900FFZ7s5YoePNHFcsAEcZtCEB0LEA8eW9rIqRDPRCs0nPmgxVSO3XBdADw4zaKR9VTVfRwT44kU/doHIqzboKN+iRKlNSrUjgB4cZtBAC48V4DorxrBLtNim51qPWl3ODhW4l3pPaKCFh9NGwEL8XcNOf63Ma5fg4a0RcFJoYTFW9T1GwFuzh+OI6vaI9EaH8nqT7rWGAHpwmJnV9xgB5c+WP5KukPv0geZCKjm20jQVlGlyzQB6x+aNmEETUsoEjxVwV/1ySuuKyryX/JNcEVtKjgZmXAMtPFYAEFH4RQqkdLacot8ADS6d6bMCzBBc11FGALNBM2ALAHA030XB+JlWUxogfibOmccehG0xPoh9Awl3/t+d60sOAAAAAElFTkSuQmCC" InformativeScreenshot="0d2be13288b22eaef68864a5ac8ea6d6.jpg" Selector="&lt;html app='msedge.exe' title='일별환율조회 - 우리은행' /&gt;" Title="일별환율조회 - 우리은행" Url="https://spot.wooribank.com/pot/Dream?withyou=FXXRT0011" />
+                      </uix:NApplicationCard.TargetApp>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NApplicationCard>
+                    <ueab:CopyPasteRangeX DestinationRange="[Excel_환율변동추이.Sheet(&quot;Sheet1&quot;).Range(&quot;A6:E21&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_1" PasteOptions="All" SourceRange="[Excel_환율변동추이.Sheet(&quot;Sheet1&quot;).Range(&quot;A7:E22&quot;)]" Transpose="False" />
+                    <ueab:WriteCellX Cell="[Excel_환율변동추이.Sheet(&quot;Sheet1&quot;).Cell(&quot;A22&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="433.6,160" sap2010:WorkflowViewState.IdRef="WriteCellX_1" Value="[string.Format(&quot;=TODAY()&quot;)]" />
+                    <ueab:WriteCellX Cell="[Excel_환율변동추이.Sheet(&quot;Sheet1&quot;).Cell(&quot;B22&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="433.6,160" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[Excel_환율조회.Sheet(&quot;Sheet1&quot;).Cell(&quot;L2&quot;)]" />
+                    <ueab:WriteCellX Cell="[Excel_환율변동추이.Sheet(&quot;Sheet1&quot;).Cell(&quot;D22&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="433.6,160" sap2010:WorkflowViewState.IdRef="WriteCellX_3" Value="[Excel_환율조회.Sheet(&quot;Sheet1&quot;).Cell(&quot;L3&quot;)]" />
+                  </Sequence>
+                </ActivityAction>
+              </ueab:ExcelApplicationCard.Body>
+            </ueab:ExcelApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ueab:ExcelApplicationCard.Body>
+    </ueab:ExcelApplicationCard>
+  </ueab:SequenceX>
+</Activity>
