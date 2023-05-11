@@ -21684,15 +21684,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NAJ05150004\\.nuget\\packages\\": {}
+    "C:\\Users\\dhkim\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "8-3_코로나 바이러스 조회 및 데이터 출력",
       "projectName": "8-3_코로나 바이러스 조회 및 데이터 출력",
-      "projectPath": "D:\\Programming\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\8-3_코로나 바이러스 조회 및 데이터 출력\\.local",
-      "packagesPath": "C:\\Users\\NAJ05150004\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\8-3_코로나 바이러스 조회 및 데이터 출력\\.local"
+      "projectPath": "D:\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\8-3_코로나 바이러스 조회 및 데이터 출력\\.local",
+      "packagesPath": "C:\\Users\\dhkim\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\8-3_코로나 바이러스 조회 및 데이터 출력\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -21733,7 +21733,7 @@
             "version": "[1.16.0, 1.16.0]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\NAJ05150004\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\dhkim\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
