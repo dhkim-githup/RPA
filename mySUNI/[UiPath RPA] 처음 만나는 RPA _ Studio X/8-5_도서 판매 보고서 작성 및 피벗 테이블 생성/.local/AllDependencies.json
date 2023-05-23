@@ -21684,15 +21684,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dhkim\\.nuget\\packages\\": {}
+    "C:\\Users\\NAJ05150004\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "8-5_도서 판매 보고서 작성 및 피벗 테이블 생성",
       "projectName": "8-5_도서 판매 보고서 작성 및 피벗 테이블 생성",
-      "projectPath": "D:\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\8-5_도서 판매 보고서 작성 및 피벗 테이블 생성\\.local",
-      "packagesPath": "C:\\Users\\dhkim\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\8-5_도서 판매 보고서 작성 및 피벗 테이블 생성\\.local"
+      "projectPath": "D:\\Programming\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\8-5_도서 판매 보고서 작성 및 피벗 테이블 생성\\.local",
+      "packagesPath": "C:\\Users\\NAJ05150004\\.nuget\\packages\\",
+      "outputPath": "D:\\Programming\\GitHub\\RPA\\mySUNI\\[UiPath RPA] 처음 만나는 RPA _ Studio X\\8-5_도서 판매 보고서 작성 및 피벗 테이블 생성\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -21733,7 +21733,7 @@
             "version": "[1.16.0, 1.16.0]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\dhkim\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\NAJ05150004\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {

@@ -1,0 +1,210 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="824,1888.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="48">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Activities.System.Binding</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Word</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Presentations</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>System.Reflection</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="76">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <ueab:SequenceX DisplayName="Single Excel Process Scope" sap:VirtualizedContainerService.HintSize="684,1824" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+    <ueab:SequenceX.Variables>
+      <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Name="Notes">
+        <Variable.Default>
+          <VisualBasicValue x:TypeArguments="ue:IWorkbookQuickHandle" ExpressionText="new WorkbookQuickHandle(workbookPath:=&quot;Project_Notebook.xlsx&quot;,visible:=True,autoSave:=False,createNew:=True,readOnly:=False,isWorkspace:=True)" />
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="Message_Box에서_선택된_버튼" />
+    </ueab:SequenceX.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="640.8,1734.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="8ede831b-7295-49c3-a85f-b465e7493ada" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="607.2,1517.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[Notes.Sheet(&quot;Scratchpad&quot;).DataTableOutValue]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='가격' ReferenceName='Column0'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='URL' ReferenceName='Column1'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='dl' idx='1' /&gt;&lt;webctrl tag='dd' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='dl' idx='1' /&gt;&lt;webctrl tag='dd' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='em' text='원' idx='1' /&gt;&lt;webctrl tag='strong' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='href'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='dl' idx='1' /&gt;&lt;webctrl tag='dd' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="564,157.6" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="Rows" MaximumResults="50" Version="V3">
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="378, 454, 1350, 6535" DesignTimeScaleFactor="1.25" ElementType="List" FriendlyName="'UL productList'" FullSelectorArgument="&lt;webctrl id='productList' tag='UL' /&gt;" Guid="b57c323e-6bcf-43f5-98ed-737480b61868" InformativeScreenshot="c8fc551ef720d3f6a9a09000107de2ac.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='쿠팡! - 자전거' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <ueab:ExcelForEachRowX DisplayName="For Each Excel Row" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="564,1227.2" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_1" Range="[Notes.Sheet(&quot;Scratchpad&quot;)]" SaveAfterEachRow="False">
+              <ueab:ExcelForEachRowX.Body>
+                <ActivityAction x:TypeArguments="ue:CurrentRowQuickHandle, x:Int32">
+                  <ActivityAction.Argument1>
+                    <DelegateInArgument x:TypeArguments="ue:CurrentRowQuickHandle" Name="CurrentRow" />
+                  </ActivityAction.Argument1>
+                  <ActivityAction.Argument2>
+                    <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                  </ActivityAction.Argument2>
+                  <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="530.4,1042.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <If Condition="[CurrentRow.ByField(&quot;가격&quot;) &gt;= 200000]" sap:VirtualizedContainerService.HintSize="487.2,951.2" sap2010:WorkflowViewState.IdRef="If_1">
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="453.6,768" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="410.4,82.4" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[CurrentRow.ByField(&quot;URL&quot;).ToString]" Version="V3" />
+                          <ui:MessageBox Caption="{x:Null}" AutoCloseAfter="00:00:00" Buttons="YesNo" ChosenButton="[Message_Box에서_선택된_버튼]" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="410.4,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[string.Format(&quot;장바구니에 담으시겠습니까?&quot;)]" />
+                          <If Condition="[Message_Box에서_선택된_버튼 = string.Format(&quot;Yes&quot;)]" sap:VirtualizedContainerService.HintSize="410.4,430.4" sap2010:WorkflowViewState.IdRef="If_2">
+                            <If.Then>
+                              <Sequence sap:VirtualizedContainerService.HintSize="376.8,247.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '장바구니 담기'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8ede831b-7295-49c3-a85f-b465e7493ada" Version="V3">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://www.coupang.com/vp/products/7252041019?itemId=18449514039&amp;vendorItemId=84861308978&amp;sourceType=srp_product_ads&amp;clickEventId=f7abd97f-962e-4067-94ea-ae4caa249f53&amp;korePlacement=15&amp;koreSubPlacement=1&amp;q=%EC%9E%90%EC%A0%84%EA%B1%B0&amp;itemsCount=36&amp;searchId=bc5854518bdd467c92cc115f04c388c0&amp;rank=0&amp;isAddedCart=" CvElementArea="1049, 823, 242, 56" CvTextArea="1105, 841, 128, 22" CvTextArgument="E874 Eh7|" CvType="Button" DesignTimeRectangle="1051, 825, 239, 53" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'장바구니 담기'" FullSelectorArgument="&lt;webctrl class='prod-cart-btn' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl class='prod-cart-btn' tag='BUTTON' type='' aaname='                 장바구니 담기             ' check:innerText='장바구니 담기' /&gt;" Guid="1c93049a-cb18-40d5-802c-dae48f3d34a4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAPMAAAA5CAYAAADjhR3tAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAPGSURBVHhe7do9axRRFIdxP1Qqu1R221mlslRsRBCRiEhsgggiGBsDNiIEEUEwhbiFiEVECGncQgIi24SAuIWoINdzd8+dnMSdnZl9ye6ceX5wcD1zdyaTuf950zMBgAuEGXCCMANOZGFeukRRVB0rORZmAPVCmAEnCDPgBGEGnCDMgBOEGXCCMANOEGbACcIMOEGYAScIM+AEYQacIMyAE4QZcIIwA04QZsAJwgw4QZhL2n8++L3EamtvEmXXZ8eVqof6xUl9C2FF17n6QXuzMoNtZb+3W/JZe97F/U0aFea2TPr+wS6oNLkKwyfj8pZn2zITax5h3pTtxzErss5CEwZsNf08I2pTttFHmKci7m9CmIfUvMNcVgqq1zCXOV52vwizss2mKAoDYa4mhbnUd6cV5hc6WBBmZZuN8Fcm0WU9+PdC6GnbqkuYz29pY4g6hzlX9+i767vaE4RZ2WYTdEywYm181QWGDV9WdqKYMOfWKYR5VFDrEGZb2W34CN1XOl5Oxm05KSeEWdmmd923IZyLB10nRP/PqyFsf9cBatHDvH5lsK5GhVnCe//6YOzyY+0pwqxs0y0J69YjPeCxbssVWnpr1/TvEuy1NyEc6tm+MHwmzFVvs7OaYOKVCc88wjyy0v6Oua2OPFL01yPHautAm4owK9v06PdeCK14oLVad2Vi/NGFP+Q2+87RsiU58+/8Oh6+mYc550pVtU5e2RYuzFL939UY2+rJuHRHNWx/CLOyTa/iZGjJVXjjozZO2H8nk+SGnPH1+XmWYf5vfQ7CXEnFbfU+hXA+PRLFOyrzrJwQZmWbGDjVMBeoFEpjYcNcwY787Nk7DjnZvpc7qWEIs7LNxojP0M9CuCC31cvprB9LPrduyvOzTI69Ey/FjjFhzq0FCXNRtZ7K4CmF2e5nmcrbVndXlslxSOPOyqPQTk6QI8KsbLMJ4hvtlg1wXsmYtbyJ7SjMSw9k8AKFeT/985PWypOjF5N5CLOyTfcO5GqskySe7dty5HvpZVgkn/c/S4jllq4/OSTQL3/qsgnMI8yVTDvMo0JVYlud14M7pO2uNgoQZmWb7pkr6sYX7Q1jxpX5zwxFCLMxpW1ZhFnZpnuHIVzUW2yuzAZhrp24vwnPzDqhcmvUM3NFjQtzySLM44v7mzQ2zH0l3mZ3pnBFTgjz8CLM44v7mzQ7zEDNEWbACcIMOEGYAScIM+AEYQacIMyAE4QZcIIwA04QZsAJwgw4QZgBJwgz4ARhBpwgzIATuWGmKKp+lWRhBlBvhBlwIYR/uzXhquvuOY4AAAAASUVORK5CYII=" InformativeScreenshot="c185ce4bccc4f585d3ed24a6b2108125.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='쿠팡! | MTB 자전거 입문용 MTB 산악자전거 2023년형 몬타그나 시마노 21단 알루미늄 27.5인치 M09' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                          <uix:Target CvElementArea="1295, 823, 244, 57" CvTextArea="1367, 841, 80, 21" CvTextArgument="H}270H" CvType="Button" DesignTimeRectangle="1368, 827, 80, 50" ElementType="Text" FriendlyName="'바로구매'" FullSelectorArgument="&lt;webctrl class='prod-buy-btn__txt' parentid='contents' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='prod-buy-btn__txt' parentid='contents' tag='SPAN' type='' aaname='바로구매' check:innerText='바로구매' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFQAAAA2CAYAAABZV76QAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAF6SURBVHhe7dzBbcIwGIZhhupUnYE1eq/EGBXMwJFrD731wgSug2zLTf7ENnwBR3p/6ZUISZ3kQWmlHtg5Rjq7t3fnSBeg4gAVB6g4QMUBKg5QcYCKA1QcoOIAFQeoOEDFASoOUHGAigNUHKDiHgY9fIf//V+d2xv71yqdt3J+z/Y6VX2FRfwc/PberxVn2M6PnYCmgw2gk3/vNv5m4nu1oOlnK6cEAKgYtLZLYb3SB3MD6xG0thJAa4CG5dSgl6O9P11/dk8TMAno0twBGm+sduSgHsXaD2hLH879hPVeD9r6yOeT7Y+pH+WqPv35wnlP/rV1TCvoeLYNunBjLZMj9AtqHJ/X+sgPM77YHkCH7cn+rG2BFornmPt9afU80KW5A9QqfkDP+otula5/ZgD10xVoa1sHraob0OxCHpnxRc8FaOUA+qIAFbca6KhVQel/gIoDVByg4gAVB6g4QMUBKg5QcYCKA1QcoOIAFQeoOEDFASqOL3GRjnN/4mz+Yavql34AAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NClick.Target>
+                                </uix:NClick>
+                              </Sequence>
+                            </If.Then>
+                            <If.Else>
+                              <Sequence sap2010:WorkflowViewState.IdRef="Sequence_6" />
+                            </If.Else>
+                          </If>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap2010:WorkflowViewState.IdRef="Sequence_4" />
+                      </If.Else>
+                    </If>
+                  </Sequence>
+                </ActivityAction>
+              </ueab:ExcelForEachRowX.Body>
+            </ueab:ExcelForEachRowX>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQQSURBVFhHrVdfiFRVGB8iokcJ8UEixKd75+6u3ntn/+kai4XJCvtQLEViYQplPfjkgyBklIj4FCW52GRqJqYlJYtIUZFIEfQQpcyZO7O7s5sW7Ky6O+jsNn++vu/c7+7emflmd8bmBz/unTm/7/ude+453zk30igme3sf59uI57atTTjGWejvf5RI98nO9rXcXKFtGRKOeVQ55qUJ216NhlcTtgH4+zz+f8G/N66o3nWrlW1+nXTNIxz2/5CIRQcTjrUZhoYeQaMMG+XpKjFoU7YxRjHKjm72bGuQ0zUP/YR+wqmwUSMMYnBEznG6xpB2radULLrV67ai2IGfqxM/BK/rXJgz1dn2JNvUh3KifUKS1jBmbWCb+qAREIOZqrsDbr+9H3I//QBz6RSUHtyHwnQWHvzxO9z96gsY2/6CGEf0ujvqjwDO3AGa5TjDf5OCiZndO7TZcpj9/ltQG53aHJibPFTMHGDbRaQcw6kJCHFizy4oFwpssTzyN/4E1dUu5vJi0fVsW4lgqVWTnqaQneLUPsr/zsPsd1dhavhDuPP5af06qpE9eaImF3KM7XyA61IloyIzKYg1/znyHqf0UZydhczOlyt1jgnZ+HFW+COQeW17pWZRm0EepSqqO4E/4qKQef/XXzitj7/fOSDqiPcuXYRb+/aKbWFifYhrc0Kmr30FVrEZSUgsztxjaxz6UglUzzpR1yjR/C55avNEV8ca/GNEEgYMg1aBpGmW+MpHxnrWr6Fye0wShBlGqzpAVK7xgR4F7MQJSRAwjNaNgDGszeHgQdy1zFOSKGAYLezASfLGFWAMS4Iww2jlK0ja5kcRqs9UHiVBwDBaOAm/pAOMfg3KdVcutQxL+TzbA5Tm5kRNM6Rl+FeX8YQ2J2BvzkjCgHmVYHsfE6/vFHXEyb1vQHJTp9gWJs07be6XYvMQdsKThMTp05+wtY984iYk+3tqdHrDwkJFpXrq2PvyjojUXq757kIpDqBrtBCQHnwOysUi2/uYHx/VJXn8lRdh8q3dMP3Zp1Can+dWHzMj39TkQlZuRgFUzOoSxAukXa8ZFHM5SG97RsyVtttibLsIPP1uxaGhQ+j16gBN3O2qX0U90NY9/upLtTkwN3l4jrWFbWsxaptLHsloAuau/QjlcpntFlG4Mw3Zj4+D92yfGNvQoRSLw9NScDVpRxx9fgAm3tyln9bbsknUhalcq49t6oMKU8q1+ulTC4Pk19EEcciv0acc5VwoPI0Cg8/pJLZxqzrxcgzFnOV0zYNOr8FZHitl2k9o5gKTWvpt2PE0xVCseAJ+GOB33mEakdSGjlV41QcYvJ4hanPHuMxt57GzhzisdYAh6zG+jdBJBktpnLZT/nCN0+rh5grt0ohE/gNYcnZW5cprTAAAAABJRU5ErkJggg==" InformativeScreenshot="6be97e6097bb76051cac6d1e4b9c4b9e.jpg" Selector="&lt;html app='msedge.exe' title='쿠팡! - 자전거' /&gt;" Title="쿠팡! - 자전거" Url="https://www.coupang.com/np/search?component=&amp;q=%EC%9E%90%EC%A0%84%EA%B1%B0&amp;channel=user" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </ueab:SequenceX>
+</Activity>
