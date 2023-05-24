@@ -1,0 +1,139 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1234.4,1395.2" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="48">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Activities.System.Binding</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Word</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Presentations</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="76">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <ueab:SequenceX DisplayName="Single Excel Process Scope" sap:VirtualizedContainerService.HintSize="476.8,1330.4" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+    <ueab:SequenceX.Variables>
+      <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Default="[new WorkbookQuickHandle(workbookPath:=&quot;Project_Notebook.xlsx&quot;,visible:=True,autoSave:=False,createNew:=True,readOnly:=False,isWorkspace:=True)]" Name="Notes" />
+    </ueab:SequenceX.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Google 번역" sap:VirtualizedContainerService.HintSize="433.6,1240.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="361d4721-d595-4511-b0c7-d31d746fa3e4" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="376.8,1024" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayAfter="3" DisplayName="Type Into '원본 텍스트clear원문'" EmptyFieldMode="MultiLine" sap:VirtualizedContainerService.HintSize="333.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="361d4721-d595-4511-b0c7-d31d746fa3e4" Text="Hi My name is DH" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://translate.google.co.kr/?sl=auto&amp;tl=ko&amp;op=translate" CvElementArea="18, 326, 618, 172" CvTextArea="529, 465, 40, 14" CvTextArgument="/ 5,000" CvType="InputBox" DesignTimeRectangle="20, 329, 618, 166" DesignTimeScaleFactor="1" FriendlyName="'원본 텍스트clear원문'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;c-wiz&amp;gt;div&amp;gt;div&amp;gt;c-wiz&amp;gt;div&amp;gt;c-wiz&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;c-wiz' tag='C-WIZ' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='C-WIZ' class='rm1UF UnxENd u3bW4e' aaname='' check:innerText='원본 텍스트&amp;#xD;&amp;#xA;0 / 5,000' /&gt;" Guid="2cc105bc-44d1-4c03-b175-127111c9b964" ImageBase64="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" InformativeScreenshot="c208267238ee7d83ed4551d108000913.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Google 번역' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayAfter="3" DisplayName="Type Into '원본 텍스트clear원문'" EmptyFieldMode="MultiLine" sap:VirtualizedContainerService.HintSize="333.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="361d4721-d595-4511-b0c7-d31d746fa3e4" Text="We are going on an RPA Trrip" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://translate.google.com/?hl=ko&amp;sl=auto&amp;tl=ko&amp;op=translate" CvElementArea="18, 320, 617, 172" CvTextArea="520, 459, 48, 14" CvTextArgument="0 / 5,000" CvType="InputBox" DesignTimeRectangle="20, 323, 618, 166" DesignTimeScaleFactor="1" FriendlyName="'원본 텍스트clear원문'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;c-wiz&amp;gt;div&amp;gt;div&amp;gt;c-wiz&amp;gt;div&amp;gt;c-wiz&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;c-wiz' tag='C-WIZ' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='C-WIZ' class='rm1UF UnxENd u3bW4e' aaname='' check:innerText='원본 텍스트&amp;#xD;&amp;#xA;0 / 5,000' /&gt;" Guid="c6b8daa5-5ec5-47f6-8f01-c69eda9ae79c" ImageBase64="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" InformativeScreenshot="87b9ace242210193bfb720b8dec71cce.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Google 번역' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'swap_horiz'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="361d4721-d595-4511-b0c7-d31d746fa3e4" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://translate.google.co.kr/?sl=auto&amp;tl=ko&amp;op=translate" DesignTimeRectangle="617, 296, 48, 19" DesignTimeScaleFactor="1" FriendlyName="'swap_horiz'" FullSelectorArgument="&lt;webctrl parentid='ow26' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ow26' tag='SPAN' type='' class='' aaname='' check:innerText='swap_horiz' /&gt;" Guid="f0634a74-e979-43c6-ad92-2463f4893f7c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAXCAYAAABEQGxzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACgSURBVFhH7dQ9CoAwDIZh738frYt6Dd30Eu3WyAcNOPhvqkHyQgcFIQ/EFvRR3ntq2o4qV1M/DOnt87KCeOiycrtHEqUKFGNMX97PVu6ocZoohJCetmOQJAaJgjAchsSwRwENvHRiIGCwPmdBuRIBMWbth1+eN7CPQbiZfgXifrVy3JVLIVeiIHT22s6VOOjrDKQ9A2nPQNozkPYMpDuiGbunbGWOYZPEAAAAAElFTkSuQmCC" InformativeScreenshot="5f36bbc50e95291467ae9806d611d8f8.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Google 번역' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayAfter="3" DisplayName="Type Into '원본 텍스트clear원문'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="333.6,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="361d4721-d595-4511-b0c7-d31d746fa3e4" Text="[string.Format(&quot;정말 즐겁죠?{0}신나죠?&quot;, &quot;[k(enter)]&quot;.ToString)]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://translate.google.co.kr/?sl=auto&amp;tl=ko&amp;op=translate" CvElementArea="18, 320, 617, 172" CvTextArea="520, 459, 48, 14" CvTextArgument="0 / 5,000" CvType="InputBox" DesignTimeRectangle="20, 323, 618, 166" DesignTimeScaleFactor="1" FriendlyName="'원본 텍스트clear원문'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;c-wiz&amp;gt;div&amp;gt;div&amp;gt;c-wiz&amp;gt;div&amp;gt;c-wiz&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;c-wiz' tag='C-WIZ' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='C-WIZ' class='rm1UF UnxENd u3bW4e' aaname='' check:innerText='원본 텍스트&amp;#xD;&amp;#xA;0 / 5,000' /&gt;" Guid="647de018-232b-4bef-b63b-4032d80b748b" ImageBase64="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" InformativeScreenshot="efedad68dd169111911c9642020ee861.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Google 번역' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-1588, 131, 1352, 788" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAI/SURBVDhPhZLLaxNRFIdn5cL/yZXQR5o22lYs2E2hRdyIC8GFoLEE8mxSfCRtzMK2NCDUmGJJ22xi0QYSGyoTk8zkMXknUAWnTmbl4ue5M5lQtLUHftxhuN93z5w73G2vHJpeVjDlU3CTxavgBsWypGDG1bjGXVYMnF5WMUWZZPGpJFJJosJiP1nrb7u4JklwLkyZcH//bbXmrvS3nl+sbQP+W2BZUvF8qyqIYulDtVrdbjab0Xq9GZWkerRWq73P58szHPtmBt4NqUiLMqSWjMOcrL2bIMH90An4bAGtVhvdbhedTkdLu90GCcGxgbETvxD8bIuGR8+zfh0e97Auevh4yEMQSxr0j2CCps2geventr7YVSDUZXyTZE1gpqxEy+D5HOafujTQSKPRIIGHXZneweI7RTvZFlGQ4E812OxWccdThGNlA55QGM7QJh75gngZjuiCcRIwaP61ipQgo9aVSXaKudWeBo9R2CGBzRg+pzJYj+wglvhEM2npArNbGbQ6CEEGbHL1MErxhXk89gZh879BqVQC3YouGHMpA+AseBYedfZwL9DAQ4cftsAaBEFApVKBJEngTCQwAAMagH14hGJyyogn0tiOJ2APrqNYLKFcLoMbWvzxasTxC0aG+xmy6yuDhx16NvbLKBQEHCRTEEVRF/yvrNajq9dvxcBimdtH4uArtS9qMJvDpQJWCw/iNfPsHnZ2j5DN5rQODAFLf9vF9cSxt/A2kkQmc0w/Uxb5fJ4kBW2QyfTx6h8fcX0dWzi39AAAAABJRU5ErkJggg==" InformativeScreenshot="4ec04d058c55a933cec2d7dbf0d518a5.jpg" Selector="&lt;html app='msedge.exe' title='Google 번역' /&gt;" Title="Google 번역" Url="https://translate.google.co.kr/?sl=auto&amp;tl=ko&amp;op=translate" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </ueab:SequenceX>
+</Activity>
