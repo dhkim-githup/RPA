@@ -21684,15 +21684,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dhkim\\.nuget\\packages\\": {}
+    "C:\\Users\\NAJ05150004\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "3.브라우저에서 이미지 가져오기!",
       "projectName": "3.브라우저에서 이미지 가져오기!",
-      "projectPath": "D:\\GitHub\\RPA\\mySUNI\\[UiPath RPA] RPA 응용 _ 1일 1봇 UiPath StudioX\\실습\\3.브라우저에서 이미지 가져오기!\\.local",
-      "packagesPath": "C:\\Users\\dhkim\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\RPA\\mySUNI\\[UiPath RPA] RPA 응용 _ 1일 1봇 UiPath StudioX\\실습\\3.브라우저에서 이미지 가져오기!\\.local"
+      "projectPath": "D:\\Programming\\GitHub\\RPA\\mySUNI\\[UiPath RPA] RPA 응용 _ 1일 1봇 UiPath StudioX\\실습\\3.브라우저에서 이미지 가져오기!\\.local",
+      "packagesPath": "C:\\Users\\NAJ05150004\\.nuget\\packages\\",
+      "outputPath": "D:\\Programming\\GitHub\\RPA\\mySUNI\\[UiPath RPA] RPA 응용 _ 1일 1봇 UiPath StudioX\\실습\\3.브라우저에서 이미지 가져오기!\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -21733,7 +21733,7 @@
             "version": "[1.16.0, 1.16.0]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\dhkim\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\NAJ05150004\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
